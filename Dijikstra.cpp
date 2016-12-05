@@ -37,7 +37,7 @@ int main(){
 		cout<<"enter node1 node2 weight"<<endl;
 		scanf("%d %d %d",&x,&y,&w);
 		graph[x].push_back(make_pair(w,y));
-		//graph[y].push_back(make_pair(w,x));
+		graph[y].push_back(make_pair(w,x));
 	}
 	int src,dest;
 	printf("enter source node ");
